@@ -7,7 +7,7 @@ fn main() {
 
     let secret_number = rand::thread_rng().gen_range(1..101);
 
-    // TODO: For debug only
+    // For debug only
     // println!("The secret number is {}", secret_number);
 
     loop {
