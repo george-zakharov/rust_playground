@@ -10,7 +10,7 @@ fn another_function() {
 }
 
 fn and_another_one() {
-    let mut s = String::from("hello");
-    s.push_str(", world!");
+    let mut s = String::from("Hello");
+    s.push_str(", pretty world!");
     println!("{}", s);
 }
